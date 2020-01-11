@@ -57,12 +57,12 @@ public abstract class DialogPhotoEdit extends AppCompatDialog {
         });
     }
 
-    public /* synthetic */ void lambda$init$0$DialogPhotoEdit(AdapterView adapterView, View view, int i, long j) {
+    public  void lambda$init$0$DialogPhotoEdit(AdapterView adapterView, View view, int i, long j) {
         update(i);
         dismiss();
     }
 
-    public /* synthetic */ void lambda$init$1$DialogPhotoEdit(View view) {
+    public  void lambda$init$1$DialogPhotoEdit(View view) {
         dismiss();
     }
 

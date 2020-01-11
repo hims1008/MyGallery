@@ -73,25 +73,16 @@ public class PhotoListFragment extends Fragment implements OnItemClickListener {
         this.mAllPhotoBtn = view.findViewById(R.id.listview_root);
         view.findViewById(R.id.space_view).setOnClickListener(new OnClickListener() {
             public final void onClick(View view) {
-                PhotoListFragment.this.lambda$setupView$0$PhotoListFragment(view);
+                getActivity().onBackPressed();
             }
         });
         view.findViewById(R.id.listview_root).setOnClickListener(new OnClickListener() {
             public final void onClick(View view) {
-                PhotoListFragment.this.lambda$setupView$1$PhotoListFragment(view);
+                if (mListener != null) {
+                    mListener.onSelectBucketID(null, null);
+                }
             }
         });
-    }
-
-    public /* synthetic */ void lambda$setupView$0$PhotoListFragment(View view) {
-        getActivity().onBackPressed();
-    }
-
-    public /* synthetic */ void lambda$setupView$1$PhotoListFragment(View view) {
-        OnFragmentListener onFragmentListener = this.mListener;
-        if (onFragmentListener != null) {
-            onFragmentListener.onSelectBucketID(null, null);
-        }
     }
 
     private void setAllPhotoInfo() {
