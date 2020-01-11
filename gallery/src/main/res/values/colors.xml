@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="backgroung_white">#fffafafa</color>
+    <color name="darkGray">#494949</color>
+    <color name="dividers_white">#1effffff</color>
+    <color name="primary_dark_text">#dd000000</color>
+    <color name="secondary_dark_text">#89000000</color>
+    <color name="dividers_dark">#1e000000</color>
+    <color name="black_icon">#000</color>
+    <color name="white_icon">#fff</color>
+    <color name="blur3">#10000000</color>
+
+</resources>

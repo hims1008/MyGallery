@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Gallery</string>
+    <string name="photo_all">All Photos</string>
+    <string name="photo_albun_touch">Tab to view albums</string>
+
+    <string name="photo_edit_dialog_item_ratio1">1 : 1</string>
+    <string name="photo_edit_dialog_item_ratio2">4 : 5</string>
+    <string name="photo_edit_dialog_item_ratio3">User Customize</string>
+    <string name="photo_edit_dialog_item_ratio4">Download</string>
+    <string name="photo_edit_dialog_item_sub1">Crop photo with square</string>
+    <string name="photo_edit_dialog_item_sub2">Instagram Vertical Size Optimization</string>
+    <string name="photo_edit_dialog_item_sub3">Free Size &amp; Original Size</string>
+    <string name="photo_edit_dialog_item_sub4">Save to gallery</string>
+    <string name="crop_title">Edit Photo</string>
+
+</resources>
